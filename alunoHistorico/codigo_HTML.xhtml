@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body style="background: #F0F8FF;">
+        <h:form>
+            <p:messages autoUpdate="true" />
+            <p:separator />
+            
+        <p:fieldset legend="Teste">
+            <p:commandButton value="Adicionar" action="#{historicoBean.adicionar()}" update="@form"/>
+            <br/><br/>
+            <p:panelGrid columns="2">
+                <h:outputLabel value="Nome da Avaliação"></h:outputLabel>
+                <p:inputText value="#{historicoBean.historico.nomeAvaliacao}"></p:inputText>
+
+                <h:outputLabel value="Nota"></h:outputLabel>
+                <p:inputText value="#{historicoBean.historico.nota}" style="" />
+                <h:outputLabel value="Data"></h:outputLabel>
+                <p:calendar value="#{historicoBean.historico.data}" ></p:calendar>
+            </p:panelGrid>
+        </p:fieldset>
+        <hr/>
+        <p:fieldset legend="Histórico">
+            <p:commandButton value="Listar" action="#{historicoBean.listar()}" update="@form"/>
+            <br/><br/>
+            <p:dataTable value="#{historicoBean.aluno}" var="historico">
+                
+                <p:column headerText="Avaliação" sortBy="#{historico.nomeAvaliacao}">
+                    <h:outputText value="#{historico.nomeAvaliacao}"></h:outputText>
+                </p:column>
+                <p:column headerText="Nota" sortBy="#{historico.nota}">
+                    <h:outputText value="#{historico.nota}"></h:outputText>
+                </p:column>
+                <p:column headerText="Data" sortBy="#{historico.data}">
+                    <h:outputText value="#{historico.data}">
+                        <f:convertDateTime pattern="dd/MM/yyyy"></f:convertDateTime>
+                    </h:outputText>
+                </p:column>
+            </p:dataTable>
+            <br/><br/><br/>
+        </p:fieldset>
+    </h:form>
+    </h:body>
+</html>
+

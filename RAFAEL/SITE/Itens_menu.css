@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.itens{
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif
+	font-size:14px;
+	font-style:normal;
+	text-align:left
+	height:50;
+}

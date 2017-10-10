@@ -1,0 +1,23 @@
+Sistema para Auxilio de Aprendizagem
+
+Daniele dos Santos
+Jean Carlos Queiroz
+Lais Franciele de Oliveira Martins
+Mario Akio Hassimoto
+Rafael de Jesus Carvalho
+
+
+Lider: Rafael de Jesus Carvalho
+
+Divisão das tarefas
+
+Daniele Lais - Banco de Dados
+Rafael, Jean e Mario - Programação
+
+1° e 2° semana: Correção do Projeto e banco de Dados
+3° e 4° semana: Programar as telas
+5° e 6° semana: teste
+7° e 8° semana: Reservar e corrigir o banco de Dados
+9° e 12° semana: Revisão e corrigir banco de dados e erros do sistema
+
+GitHub - mariohassimoto@outlook.com

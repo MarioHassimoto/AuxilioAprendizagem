@@ -1,4 +1,5 @@
 
-Introducao/tema/objetivo/Demilitacao do problema- Lais/Daniele
+Introducao/tema/objetivo/Demilitacao do problema- Lais
+Explicação de software/dificuldade enfrentadas/ferramentas usadas/como foi distribuição das tarefas/ banca de dados - Daniele
 Explicacao de requisitos do programa de auxilio de aprendizagem- Jean/Mario/Rafael
-Conclus�o do trabalho- Rafael
+Conclusão do trabalho- Rafael

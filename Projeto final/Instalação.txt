@@ -1,0 +1,5 @@
+Instalação para execeutar o programa.
+-criar um banco no seu PC (Aprendizagem).
+-hibernate.
+-Baixar dependencias.
+-Instalar jbosstools.
